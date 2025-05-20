@@ -1,2 +1,2 @@
 # Kuakua Project Demo
-For studying & collaborating creating Visual Novel (VN) with Unity.
+For studying & collaborating on creating Visual Novel (VN) with Unity.
