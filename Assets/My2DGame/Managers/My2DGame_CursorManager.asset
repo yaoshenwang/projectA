@@ -27,10 +27,10 @@ MonoBehaviour:
   walkPrefix:
     label: Walk to
     lineID: -1
-  addHotspotPrefix: 0
+  addHotspotPrefix: 1
   allowInteractionCursor: 1
   allowInteractionCursorForInventory: 0
-  cycleCursors: 0
+  cycleCursors: 1
   onlyAnimateOverHotspots: 0
   leftClickExamine: 0
   onlyWalkWhenOverNavMesh: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 0
+  inventoryHandling: 2
   hotspotPrefix1:
     label: Use
     lineID: -1
@@ -169,14 +169,31 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
+  - texture: {fileID: 2800000, guid: 403c7131fd05444f0af1c292d633a330, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Exit
+    lineID: -1
+    id: 3
   unhandledCursorInteractions:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   onlyShowCursorLabelOverHotspots: 0
   allowCursorCyclingWhenPaused: 0
-  lookUseCursorAction: 1
+  lookUseCursorAction: 2
   lookCursor_ID: 2
   hideCursorWhenDraggingMoveables: 1
   forceCursorInEditor: 1

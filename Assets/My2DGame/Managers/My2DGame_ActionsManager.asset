@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c43bf7c11a40f386c183fa9601d86, type: 3}
   m_Name: My2DGame_ActionsManager
   m_EditorClassIdentifier: 
-  customFolderPaths: []
+  customFolderPaths:
+  - 
   allFavouriteActionData: []
   displayActionsInInspector: 0
   displayActionsInEditor: 1
