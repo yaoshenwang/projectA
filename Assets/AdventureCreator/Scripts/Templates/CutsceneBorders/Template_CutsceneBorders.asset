@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 262c11ea190067f45a4a95d7166c10ca, type: 3}
+  m_Name: Template_CutsceneBorders
+  m_EditorClassIdentifier: 
+  exampleScenes: []
+  previewTexture: {fileID: 2800000, guid: e7c4e66bd534301429d080d23facf47e, type: 3}
+  defaultMenuManager: {fileID: 11400000, guid: 01eae64f7dd546b4691881d83f02fde1, type: 2}
