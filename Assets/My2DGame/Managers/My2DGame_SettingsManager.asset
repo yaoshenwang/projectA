@@ -29,15 +29,15 @@ MonoBehaviour:
   saveAssetReferencesWithAddressables: 0
   saveLabels:
     defaultSaveLabel: Save
-    saveLabelID: -1
+    saveLabelID: 130
     defaultImportLabel: Import
-    importLabelID: -1
+    importLabelID: 131
     defaultAutosaveLabel: Autosave
-    autosaveLabelID: -1
+    autosaveLabelID: 132
   referenceScenesInSave: 0
   useInvariantCulture: 1
   sceneAttributes: []
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: 906a5de0516eb0545998a49c975b2d09, type: 2}
   blackOutWhenSkipping: 0
   events: []
   savePlayerReferencesWithAddressables: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
     useSceneDefaultPlayerStart: 0
     startingPlayerStartID: 0
   players: []
-  movementMethod: 0
+  movementMethod: 1
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
   doubleClickMovement: 2
   magnitudeAffectsDirect: 0
   directTurnsInstantly: 0
-  directTurnMode: 0
+  directTurnMode: 1
   stopTurningWhenReleaseInput: 0
   disableMovementWhenInterationMenusAreOpen: 0
   directMovementType: 0
