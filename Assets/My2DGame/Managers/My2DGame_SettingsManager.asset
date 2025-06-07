@@ -24,7 +24,7 @@ MonoBehaviour:
   maxSaves: 5
   orderSavesByUpdateTime: 0
   reloadSceneWhenLoading: 0
-  saveWithThreading: 0
+  saveWithThreading: 1
   saveCompression: 0
   saveAssetReferencesWithAddressables: 0
   saveLabels:
@@ -44,7 +44,7 @@ MonoBehaviour:
   playerSwitching: 1
   legacyPlayer: {fileID: 0}
   playerPrefab:
-    playerOb: {fileID: 0}
+    playerOb: {fileID: 1599245366880749054, guid: 34ab33463ce4f534b950a1dd37f0d91a, type: 3}
     ID: 0
     isDefault: 0
     startingSceneIndex: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
     useSceneDefaultPlayerStart: 0
     startingPlayerStartID: 0
   players: []
-  movementMethod: 4
+  movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   walkableClickRange: 1
   navMeshSearchDirection: 1
   ignoreOffScreenNavMesh: 1
-  doubleClickMovement: 0
+  doubleClickMovement: 2
   magnitudeAffectsDirect: 0
   directTurnsInstantly: 0
   directTurnMode: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   touchUpWhenPaused: 0
   touchUpInteractScene: 0
   forceAspectRatio: 0
-  aspectRatioEnforcement: 0
-  wantedAspectRatio: 1.5
+  aspectRatioEnforcement: 1
+  wantedAspectRatio: 1.667
   maxAspectRatio: 2.39
   renderBorderCamera: 1
   landscapeModeOnly: 1
